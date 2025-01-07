@@ -1,6 +1,4 @@
-# XPay-Back-End
-
-Descrição
+# XPay-Back-End/ Projeto em construção
 
 O XPay-Back-End é um projeto que simula transferências bancárias, utilizando o RabbitMQ para melhorar a escalabilidade e desempenho do sistema. O projeto também tem como objetivo aprimorar conhecimentos sobre arquiteturas baseadas em mensageria e sua aplicação em cenários reais.
 
@@ -46,6 +44,3 @@ Implementar autenticação e autorização.
 Adicionar testes unitários e de integração.
 
 Melhorar a observação do sistema com logs estruturados e métricas.
-
-
-Em construção
