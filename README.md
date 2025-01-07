@@ -22,8 +22,6 @@ Integração assíncrona utilizando RabbitMQ para publicação e consumo de mens
 
 Persistência de dados das transferências no banco de dados.
 
-Sistema modular para futuras integrações.
-
 Cadastro de usuários
 
 
