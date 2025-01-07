@@ -41,6 +41,8 @@ O status da operação é retornado ao banco de dados como finalizada.
 
 Implementar autenticação e autorização.
 
+Construção da contêinerização da aplicação
+
 Adicionar testes unitários e de integração.
 
 Melhorar a observação do sistema com logs estruturados e métricas.
