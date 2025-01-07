@@ -1,0 +1,17 @@
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.ApplicationService.deps.json
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.ApplicationService.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.ApplicationService.pdb
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.Domain.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.Infra.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.Domain.pdb
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\bin\Debug\net8.0\Vanguardium.Infra.pdb
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.csproj.AssemblyReference.cache
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.AssemblyInfo.cs
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguard.03279A3E.Up2Date
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\refint\Vanguardium.ApplicationService.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\Vanguardium.ApplicationService.pdb
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.ApplicationService\obj\Debug\net8.0\ref\Vanguardium.ApplicationService.dll

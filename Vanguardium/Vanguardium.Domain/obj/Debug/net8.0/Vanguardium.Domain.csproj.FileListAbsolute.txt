@@ -1,0 +1,12 @@
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\bin\Debug\net8.0\Vanguardium.Domain.deps.json
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\bin\Debug\net8.0\Vanguardium.Domain.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\bin\Debug\net8.0\Vanguardium.Domain.pdb
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.AssemblyInfoInputs.cache
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.AssemblyInfo.cs
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.csproj.CoreCompileInputs.cache
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\refint\Vanguardium.Domain.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.pdb
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\ref\Vanguardium.Domain.dll
+C:\Users\igorf\OneDrive\Área de Trabalho\Challenges\VanguardiumFinance\Back-End\Vanguardium\Vanguardium.Domain\obj\Debug\net8.0\Vanguardium.Domain.csproj.AssemblyReference.cache

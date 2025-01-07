@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanguardium.Api", "Vanguardium.Api\Vanguardium.Api.csproj", "{08A0B781-6312-4D7D-B28A-4F4312AD7951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7EE0D50-BF3E-4117-B10E-49E4A9730ED8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanguardium.ApplicationService", "Vanguardium.ApplicationService\Vanguardium.ApplicationService.csproj", "{14CA82A7-8BB6-4092-B4F0-29CB565283DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanguardium.Domain", "Vanguardium.Domain\Vanguardium.Domain.csproj", "{80B9FD7D-C9AC-405D-8A22-3FCA0DE7DE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanguardium.Infra", "Vanguardium.Infra\Vanguardium.Infra.csproj", "{8A720169-734D-4A6A-AAE3-6FAB525833F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9162F3F4-16B7-475E-BF08-03ACE7EE69E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanguardium.UnitTest", "Vanguardium.UnitTest\Vanguardium.UnitTest.csproj", "{43CDB9EF-D70C-4119-86BF-BE15E6E091C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A0B781-6312-4D7D-B28A-4F4312AD7951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A0B781-6312-4D7D-B28A-4F4312AD7951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A0B781-6312-4D7D-B28A-4F4312AD7951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A0B781-6312-4D7D-B28A-4F4312AD7951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CA82A7-8BB6-4092-B4F0-29CB565283DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CA82A7-8BB6-4092-B4F0-29CB565283DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CA82A7-8BB6-4092-B4F0-29CB565283DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CA82A7-8BB6-4092-B4F0-29CB565283DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B9FD7D-C9AC-405D-8A22-3FCA0DE7DE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B9FD7D-C9AC-405D-8A22-3FCA0DE7DE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B9FD7D-C9AC-405D-8A22-3FCA0DE7DE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B9FD7D-C9AC-405D-8A22-3FCA0DE7DE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A720169-734D-4A6A-AAE3-6FAB525833F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A720169-734D-4A6A-AAE3-6FAB525833F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A720169-734D-4A6A-AAE3-6FAB525833F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A720169-734D-4A6A-AAE3-6FAB525833F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CDB9EF-D70C-4119-86BF-BE15E6E091C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CDB9EF-D70C-4119-86BF-BE15E6E091C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CDB9EF-D70C-4119-86BF-BE15E6E091C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CDB9EF-D70C-4119-86BF-BE15E6E091C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43CDB9EF-D70C-4119-86BF-BE15E6E091C3} = {9162F3F4-16B7-475E-BF08-03ACE7EE69E3}
+	EndGlobalSection
+EndGlobal

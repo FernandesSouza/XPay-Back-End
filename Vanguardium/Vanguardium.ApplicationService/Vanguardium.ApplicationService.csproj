@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Vanguardium.Domain\Vanguardium.Domain.csproj" />
+      <ProjectReference Include="..\Vanguardium.Infra\Vanguardium.Infra.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Dtos\AddresDtos\Response\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.3.5-develop.2163" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.4" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@Vanguardium_HostAddress = http://localhost:5056
+
+GET {{Vanguardium_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

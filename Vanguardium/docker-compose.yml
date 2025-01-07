@@ -1,0 +1,6 @@
+﻿services:
+  vanguardium:
+    image: vanguardium
+    build:
+      context: .
+      dockerfile: Vanguardium/Dockerfile

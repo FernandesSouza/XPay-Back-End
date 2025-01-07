@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YKE8eJ27b1ZGtS7WUhNGNrGwACdePE6VeaDsSEnQIUM=",
+  "Source": "Vanguardium.Api",
+  "BasePath": "_content/Vanguardium.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
