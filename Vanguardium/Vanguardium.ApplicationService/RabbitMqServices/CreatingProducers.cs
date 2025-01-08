@@ -10,8 +10,7 @@ public sealed class CreatingProducers(
 {
     public async Task PublishTransfer(TransferProducerDto transferProducerDto)
     {
-        var message = transferMapper.DtoToMessaging(transferProducerDto);
-        await bus.Publish(message, context =>
+        await bus.Publish(transferMapper.DtoToMessaging(transferProducerDto), context =>
         {
             context.SetRoutingKey("transfer.validate");
         });
