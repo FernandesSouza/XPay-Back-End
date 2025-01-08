@@ -6,4 +6,5 @@ namespace Vanguardium.ApplicationService.Interfaces;
 public interface ITransferMapper
 {
     Transfers DomainToRequest(TransferMessage transferMessage);
+    TransferMessage DtoToMessaging(TransferProducerDto transferProducerDto);
 }

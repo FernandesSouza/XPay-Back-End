@@ -11,6 +11,8 @@ namespace Vanguardium.ApplicationService.RabbitMqServices
         public static void RabbitMqImplement(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("RabbitPort");
+            const string exchangeType = "topic";
+
             services.AddMassTransit(busConfiguration =>
             {
                 busConfiguration.AddConsumer<TransferValidateConsumerService>();
@@ -29,7 +31,7 @@ namespace Vanguardium.ApplicationService.RabbitMqServices
                     {
                         endpoint.Bind("bank-exchange", bind =>
                         {
-                            bind.ExchangeType = "topic";
+                            bind.ExchangeType = exchangeType;
                             bind.RoutingKey = "transfer.validate";
                         });
 
@@ -40,7 +42,7 @@ namespace Vanguardium.ApplicationService.RabbitMqServices
                     {
                         endpoint.Bind("bank-exchange", bind =>
                         {
-                            bind.ExchangeType = "topic";
+                            bind.ExchangeType = exchangeType;
                             bind.RoutingKey = "report.generate";
                         });
 
@@ -51,7 +53,7 @@ namespace Vanguardium.ApplicationService.RabbitMqServices
                     {
                         endpoint.Bind("bank-exchange", bind =>
                         {
-                            bind.ExchangeType = "topic";
+                            bind.ExchangeType = exchangeType;
                             bind.RoutingKey = "statement.read";
                         });
 

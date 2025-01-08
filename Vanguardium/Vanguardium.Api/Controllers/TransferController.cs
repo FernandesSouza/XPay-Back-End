@@ -8,8 +8,8 @@ namespace Vanguardium.Controllers;
 [Route("api/[Controller]")]
 [ApiController]
 public sealed class TransferController(
-        ICreatingProducers creatingProducers
-    ) : ControllerBase
+    ICreatingProducers creatingProducers
+) : ControllerBase
 {
     [HttpPost("transfer_publisher")]
     [ProducesResponseType(StatusCodes.Status200OK)]
@@ -18,5 +18,5 @@ public sealed class TransferController(
     [ProducesResponseType(StatusCodes.Status403Forbidden)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(IEnumerable<DomainNotification>))]
     public async Task SaveUserAsync(TransferProducerDto userRequestDto) =>
-       await creatingProducers.PublishTransfer(userRequestDto);
+        await creatingProducers.PublishTransfer(userRequestDto);
 }

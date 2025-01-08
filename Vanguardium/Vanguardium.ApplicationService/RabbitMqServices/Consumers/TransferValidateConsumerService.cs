@@ -1,6 +1,7 @@
 using MassTransit;
 using Vanguardium.ApplicationService.Dtos.RabbitDtos;
 using Vanguardium.ApplicationService.Interfaces;
+using Vanguardium.Domain.Entities;
 using Vanguardium.Domain.Enums;
 using Vanguardium.Infra.Interfaces;
 
@@ -15,8 +16,15 @@ public sealed class TransferValidateConsumerService(
     {
         var message = context.Message;
         var transfer = transferMapper.DomainToRequest(message);
-        //TEMPO PARA SIMULAR VALIDAÇÕES DA TRANSFERENCIA
         await Task.Delay(TimeSpan.FromSeconds(10));
+
+        await PaymentTransactions(transfer);
+        transfer.StatusTransfer = StatusTransfer.Finished;
+        await transferRepository.SaveAsync(transfer);
+    }
+
+    private async Task PaymentTransactions(Transfers transfer)
+    {
         var sender = await userRepository.FindByPredicateAsync(c => c.Id == transfer.SenderId);
         var recipient = await userRepository.FindByPredicateAsync(c => c.Id == transfer.RecipientId);
 
@@ -25,7 +33,5 @@ public sealed class TransferValidateConsumerService(
 
         await userRepository.UpdateAsync(sender);
         await userRepository.UpdateAsync(recipient);
-        transfer.StatusTransfer = StatusTransfer.Finished;
-        await transferRepository.SaveAsync(transfer);
     }
 }
