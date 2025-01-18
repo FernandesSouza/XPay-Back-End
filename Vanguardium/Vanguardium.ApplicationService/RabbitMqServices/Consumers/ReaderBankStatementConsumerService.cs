@@ -1,8 +1,8 @@
 using MassTransit;
 
-namespace Vanguardium.RabbitMqServices;
+namespace Vanguardium.ApplicationService.RabbitMqServices.Consumers;
 
-public sealed class ReaderBankStatementConsumerService : IConsumer<string>
+public class ReaderBankStatementConsumerService : IConsumer<string>
 {
     public Task Consume(ConsumeContext<string> context)
     {

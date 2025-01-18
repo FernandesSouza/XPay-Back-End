@@ -4,14 +4,88 @@
     "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj": {
+    "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\Vanguardium.ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj",
-        "projectName": "Vanguardium.UnitTest",
-        "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\Vanguardium.ApplicationService.csproj",
+        "projectName": "Vanguardium.ApplicationService",
+        "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\Vanguardium.ApplicationService.csproj",
         "packagesPath": "C:\\Users\\igorf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igorf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Xbits\\Etrack-Microterminal\\eTrack-Global-Branch-Dev-Fernandes-Fixing\\eTrack.Global\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj": {
+                "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj"
+              },
+              "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj": {
+                "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.3.5-develop.2163, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj",
+        "projectName": "Vanguardium.Domain",
+        "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj",
+        "packagesPath": "C:\\Users\\igorf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\igorf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,9 +116,182 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj",
+        "projectName": "Vanguardium.Infra",
+        "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj",
+        "packagesPath": "C:\\Users\\igorf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igorf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Xbits\\Etrack-Microterminal\\eTrack-Global-Branch-Dev-Fernandes-Fixing\\eTrack.Global\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj": {
+                "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Domain\\Vanguardium.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj",
+        "projectName": "Vanguardium.UnitTest",
+        "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\Vanguardium.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\igorf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igorf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Xbits\\Etrack-Microterminal\\eTrack-Global-Branch-Dev-Fernandes-Fixing\\eTrack.Global\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\Vanguardium.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\Vanguardium.ApplicationService.csproj"
+              },
+              "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj": {
+                "projectPath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "target": "Package",

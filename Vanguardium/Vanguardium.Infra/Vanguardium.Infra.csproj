@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="ORM\Migrations\" />
-      <Folder Include="Service\" />
     </ItemGroup>
 
     <ItemGroup>

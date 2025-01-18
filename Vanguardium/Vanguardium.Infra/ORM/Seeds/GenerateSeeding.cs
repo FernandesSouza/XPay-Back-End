@@ -92,7 +92,8 @@ public class GenerateSeeding(ApplicationContext dbContext)
                 CorporateName = $"Company {i}",
                 Document = $"6885098800011{i}",
                 AddressId = null,
-                ContactNumber = null
+                ContactNumber = null,
+                Balance = 1000000
             };
             companyList.Add(company);
             dbContext.Add(company);

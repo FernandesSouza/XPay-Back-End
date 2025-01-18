@@ -23,10 +23,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
-await app.MigrateDatabase();
+ await app.MigrateDatabase();
 app.Run();

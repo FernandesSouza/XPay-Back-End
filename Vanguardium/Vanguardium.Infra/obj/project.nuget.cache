@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "S+2mkvBEQj81EJBW/RP0KVttbbNFuNSEy/4zJ4HV1K3weVHfE+Ral8JaBNS4Pz6kL6emtLxAr71fsjrX4VJR6w==",
+  "dgSpecHash": "nXvxEWE2nEN7fszR6cakXTm89nB4dCyJQTEg1wVCd08SUvP3uz71s3PiB4+dkBpcXw7Cw1ilS89BjBV1mvjJqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.Infra\\Vanguardium.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igorf\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\igorf\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\igorf\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

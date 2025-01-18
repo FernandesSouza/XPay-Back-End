@@ -2,7 +2,6 @@ using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Vanguardium.ApplicationService.RabbitMqServices.Consumers;
-using Vanguardium.RabbitMqServices;
 
 namespace Vanguardium.ApplicationService.RabbitMqServices
 {

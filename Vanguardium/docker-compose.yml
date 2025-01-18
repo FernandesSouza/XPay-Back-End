@@ -1,6 +1,42 @@
-﻿services:
+﻿version: "3.9"
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+      RABBITMQ_DEFAULT_VHOST: "/"
+      RABBITMQ_DEPRECATED_FEATURES_PERMIT_MANAGEMENT_METRICS_COLLECTION: "false"
+      DEPRECATED_FEATURES_PERMIT_TRANSIENT_NONEXCL_QUEUES: "false"
+      DEPRECATED_FEATURES_PERMIT_GLOBAL_QOS: "false"
+  
   vanguardium:
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__RabbitPort: "amqp://guest:guest@rabbitmq:5672/"
+      ConnectionStrings__Database: "Server=sqlserver,1433;Database=VanguardiumDb;User Id=sa;Password=ComposeSql@2023"
     image: vanguardium
     build:
       context: .
-      dockerfile: Vanguardium/Dockerfile
+      dockerfile: Vanguardium.Api/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    depends_on:
+      - rabbitmq
+      - sqlserver
+    command: ["./wait-for-it.sh", "sqlserver", "1433", "--", "dotnet", "Vanguardium.Api.dll"]    
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+        SA_PASSWORD: "ComposeSql@2023"
+        ACCEPT_EULA: "Y"
+        
+        

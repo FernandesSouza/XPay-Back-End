@@ -14,14 +14,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+      <ProjectReference Include="..\Vanguardium.ApplicationService\Vanguardium.ApplicationService.csproj" />
+      <ProjectReference Include="..\Vanguardium.Infra\Vanguardium.Infra.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Vanguardium.ApplicationService\Vanguardium.ApplicationService.csproj" />
-      <ProjectReference Include="..\Vanguardium.Infra\Vanguardium.Infra.csproj" />
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>

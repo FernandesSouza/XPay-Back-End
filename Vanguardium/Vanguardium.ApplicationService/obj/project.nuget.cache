@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Qu7RpmdEpRGwIdiF6Ozqj/prH/6QW/Gg/KRccpz4pUl1K15muVWfGCH3Dox4cAFzFrps+5BoA27BYSrNsiC7IQ==",
+  "dgSpecHash": "dCzUz4dg8NFco4hp5ND1QEELl199i8sBB9VNAOfL5seDHrDdAC6Rep9oSNvrWXjnUnF75I6ZnV1HN/M3Ai8t3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\igorf\\OneDrive\\Área de Trabalho\\Challenges\\VanguardiumFinance\\XPay-Back-End\\Vanguardium\\Vanguardium.ApplicationService\\Vanguardium.ApplicationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igorf\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\igorf\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\igorf\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\masstransit\\8.3.5-develop.2163\\masstransit.8.3.5-develop.2163.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\masstransit.abstractions\\8.3.5-develop.2163\\masstransit.abstractions.8.3.5-develop.2163.nupkg.sha512",
     "C:\\Users\\igorf\\.nuget\\packages\\masstransit.rabbitmq\\8.3.4\\masstransit.rabbitmq.8.3.4.nupkg.sha512",

@@ -40,5 +40,11 @@ public class CompanyMapping : BaseMapping, IEntityTypeConfiguration<Company>
             .HasColumnName("contactNumber")
             .HasColumnOrder(4)
             .IsRequired();
+
+        builder.Property(c => c.Balance)
+            .HasColumnType("decimal(18,2)")
+            .HasColumnName("balance")
+            .HasColumnOrder(5)
+            .IsRequired();
     }
 }

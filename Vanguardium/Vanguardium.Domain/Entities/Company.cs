@@ -8,4 +8,5 @@ public sealed class Company
     public long? AddressId { get; init; }
     public string? ContactNumber { get; init; }
     public Address? Address { get; init; }
+    public required decimal Balance { get; set; }
 }

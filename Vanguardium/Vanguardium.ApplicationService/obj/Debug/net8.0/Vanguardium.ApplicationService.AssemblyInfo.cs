@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vanguardium.ApplicationService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2e3c5da11925f22cf14698093faf4d56c1557a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3da755bd8b272c531bd12d88cb1a2c398c5fe4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vanguardium.ApplicationService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vanguardium.ApplicationService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
